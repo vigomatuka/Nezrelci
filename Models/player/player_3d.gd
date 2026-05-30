@@ -3,6 +3,7 @@ extends CharacterBody3D
 @export_group("Camera")
 @export_range(0.0, 1.0)
 var mouse_sensitivity := 0.25
+var _strafe_mode := false
 
 @export_group("Movement")
 @export var move_speed := 8.0
@@ -28,7 +29,8 @@ func _input(event: InputEvent) -> void:
 		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 	if event.is_action_pressed("left_click"):
 		_attack_pressed = true
-	
+	if event.is_action_pressed("toggle_camera_mode"):
+		_strafe_mode = not _strafe_mode 
 
 func _unhandled_input(event: InputEvent) -> void:
 	var is_camera_motion:= (
@@ -78,10 +80,21 @@ func _physics_process(delta: float) -> void:
 	velocity.y = y_velocity + _gravity * delta
 	move_and_slide()
 	
-	if move_direction.length() > 0.2:
-		_last_movement_direction = move_direction
-	var target_angle := Vector3.BACK.signed_angle_to(_last_movement_direction, Vector3.UP)
-	_skin.global_rotation.y = lerp_angle(_skin.rotation.y, target_angle, rotation_speed * delta)
+	if _strafe_mode:
+		# Camera-locked: character always faces where the camera looks
+		# (turning the camera turns the player; they can strafe/back-pedal)
+		var look_dir := -_camera.global_basis.z
+		look_dir.y = 0.0
+		look_dir = look_dir.normalized()
+		if look_dir.length() > 0.0:
+			var target_angle := Vector3.BACK.signed_angle_to(look_dir, Vector3.UP)
+			_skin.global_rotation.y = lerp_angle(_skin.global_rotation.y, target_angle, rotation_speed * delta)
+	else:
+		# Free look: character faces its movement direction
+		if move_direction.length() > 0.2:
+			_last_movement_direction = move_direction
+		var target_angle := Vector3.BACK.signed_angle_to(_last_movement_direction, Vector3.UP)
+		_skin.global_rotation.y = lerp_angle(_skin.global_rotation.y, target_angle, rotation_speed * delta)
 	
 	# Animacije
 	var ground_speed := velocity.length()
