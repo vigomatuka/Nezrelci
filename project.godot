@@ -29,8 +29,6 @@ import/blender/enabled=false
 [global_group]
 
 okvir_terena="okvir koji drzi igraca unutar terena"
-[global_group]
-
 Player=""
 
 [input]
