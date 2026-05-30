@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxdcffvy6l4mr"
-path.s3tc="res://.godot/imported/Main_character_Color_b2476040-78d8-479f-b247-a3d8b3f3dd03.jpg-58c4b1fdcaea1e1d92b20dcf8d0d18a7.s3tc.ctex"
+uid="uid://d0xhi7ywxit4e"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_In_BaseColor.png-6de6080aeedfed13d3856d9cd0a88f34.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "f0bf0649b4b70c497f4e3b68070e7c72"
+"md5": "8224b13ad5977c505b9fc7d34ed56471"
 }
 
 [deps]
 
-source_file="res://player/Main_character_Color_b2476040-78d8-479f-b247-a3d8b3f3dd03.jpg"
-dest_files=["res://.godot/imported/Main_character_Color_b2476040-78d8-479f-b247-a3d8b3f3dd03.jpg-58c4b1fdcaea1e1d92b20dcf8d0d18a7.s3tc.ctex"]
+source_file="res://Models/player/main_character_Cyber_Sword_In_BaseColor.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_In_BaseColor.png-6de6080aeedfed13d3856d9cd0a88f34.s3tc.ctex"]
 
 [params]
 

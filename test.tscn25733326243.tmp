@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://d3s1uohq0y8wg"]
 
 [ext_resource type="PackedScene" uid="uid://cnedxfn2pxh2t" path="res://levels/test_level/level.tscn" id="1_8uh7m"]
-[ext_resource type="PackedScene" uid="uid://deo6fvmni02h7" path="res://Models/player/player_3d.tscn" id="2_6uqi0"]
-[ext_resource type="PackedScene" uid="uid://bc4uyi5to2nll" path="res://Models/enemy/enemy.tscn" id="2_ppyta"]
+[ext_resource type="PackedScene" uid="uid://deo6fvmni02h7" path="res://Models/old_player/player_3d.tscn" id="2_6uqi0"]
+[ext_resource type="PackedScene" uid="uid://bc4uyi5to2nll" path="res://enemy.tscn" id="2_ppyta"]
 
 [node name="Node3D" type="Node3D" unique_id=1705835669]
 
