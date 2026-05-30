@@ -10,7 +10,20 @@ uv1_scale = Vector3(60, 60, 60)
 material = SubResource("StandardMaterial3D_xypf1")
 size = Vector2(300, 300)
 
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_e1lhp"]
+
 [node name="Node3D" type="Node3D" unique_id=1206148103]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=776412340]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 56.48678, 0)
+shadow_enabled = true
 
 [node name="zemlja" type="MeshInstance3D" parent="." unique_id=1867546992]
 mesh = SubResource("PlaneMesh_mufut")
+
+[node name="lik" type="MeshInstance3D" parent="." unique_id=84270468]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2018847, 0)
+mesh = SubResource("CapsuleMesh_e1lhp")
+
+[node name="XRCamera3D" type="XRCamera3D" parent="lik" unique_id=1653755218]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7874322, 0)
