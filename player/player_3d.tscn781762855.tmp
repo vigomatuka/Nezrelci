@@ -9,6 +9,9 @@
 
 [node name="Player_3d" type="CharacterBody3D" unique_id=39815255]
 script = ExtResource("1_a5lo2")
+mouse_sensitivity = null
+move_speed = null
+acceleration = null
 
 [node name="Main_character" parent="." unique_id=1288656143 instance=ExtResource("1_nni6y")]
 unique_name_in_owner = true
