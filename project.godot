@@ -15,6 +15,13 @@ run/main_scene="uid://bkkrcxl4dj68l"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[filesystem]
+
+import/blender/enabled=false
+
+[global_group]
+
+okvir_terena="okvir koji drzi igraca unutar terena"
 [global_group]
 
 Player=""

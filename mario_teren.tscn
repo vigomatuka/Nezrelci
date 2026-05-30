@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://bkavuhh4yjqsb"]
+
+[ext_resource type="Texture2D" uid="uid://cl615toscidrv" path="res://addons/tekstura/coast_sand_rocks_02_2k/textures/coast_sand_rocks_02_diff_2k.jpg" id="1_e1lhp"]
+[ext_resource type="PackedScene" uid="uid://cnwgedgpk8koj" path="res://modeli/collectible_2_valjak.glb" id="2_dbju7"]
+[ext_resource type="PackedScene" uid="uid://dxncf7saphemd" path="res://modeli/vjecnica_60k.glb" id="3_koi6j"]
+[ext_resource type="Texture2D" uid="uid://daad7oxej27c4" path="res://addons/tekstura/medieval_red_brick_2k/textures/medieval_red_brick_diff_2k.png" id="4_koi6j"]
+[ext_resource type="PackedScene" uid="uid://dwjvxmwqfixp8" path="res://modeli/skinuti_modeli/rock_mountain_with_cave_realistic_85k_by_jj_fbx/scene.gltf" id="5_h7ntg"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xypf1"]
+albedo_texture = ExtResource("1_e1lhp")
+uv1_scale = Vector3(60, 60, 60)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_mufut"]
+material = SubResource("StandardMaterial3D_xypf1")
+size = Vector2(300, 300)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_e1lhp"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h7ntg"]
+albedo_texture = ExtResource("4_koi6j")
+uv1_scale = Vector3(60, 5, 60)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wcfln"]
+albedo_texture = ExtResource("4_koi6j")
+uv1_scale = Vector3(5, 60, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_381ol"]
+albedo_texture = ExtResource("4_koi6j")
+uv1_scale = Vector3(5, 60, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jetgs"]
+albedo_texture = ExtResource("4_koi6j")
+uv1_scale = Vector3(60, 5, 5)
+
+[node name="Node3D" type="Node3D" unique_id=1206148103]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=776412340]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 56.48678, 0)
+shadow_enabled = true
+
+[node name="zemlja" type="MeshInstance3D" parent="." unique_id=1867546992]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0001950264, 0.007162571, 0.0019702911)
+mesh = SubResource("PlaneMesh_mufut")
+metadata/_edit_lock_ = true
+
+[node name="lik" type="MeshInstance3D" parent="." unique_id=84270468]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0048971176, 1.0530491, 1.1920929e-07)
+mesh = SubResource("CapsuleMesh_e1lhp")
+
+[node name="XRCamera3D" type="XRCamera3D" parent="lik" unique_id=1653755218]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7874322, 0)
+
+[node name="collectible_2_valjak" parent="." unique_id=199264142 instance=ExtResource("2_dbju7")]
+transform = Transform3D(-1.9442532, 0, 4.606504, 0, 5, 0, -4.606504, 0, -1.9442532, 98.50365, 1.495784, 3.1878614)
+
+[node name="vjecnica_60k" parent="." unique_id=327706133 instance=ExtResource("3_koi6j")]
+transform = Transform3D(-9.551067, 0, 11.566201, 0, 14.999999, 0, -11.566201, 0, -9.551067, 105.0557, 7.1693974, 113.264175)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=1457501389 groups=["okvir_terena"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 11.354139, -148.02684)
+size = Vector3(300, 25, 1)
+material = SubResource("StandardMaterial3D_h7ntg")
+metadata/_edit_lock_ = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGBox3D2" unique_id=1228234822]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -146.92697, 0.5894699, 147.96365)
+size = Vector3(1, 25, 302.83575)
+material = SubResource("StandardMaterial3D_wcfln")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="CSGBox3D2/CSGBox3D" unique_id=1526411567]
+transform = Transform3D(1, 0, 0, 0, 1.1401223, 0, 0, 0, 0.98250604, 294.77484, -0.3702526, -0.7775185)
+size = Vector3(1, 25, 306.27)
+material = SubResource("StandardMaterial3D_381ol")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="CSGBox3D2/CSGBox3D/CSGBox3D3" unique_id=1689098690]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -135.02957, -0.2192173, 151.25626)
+size = Vector3(322.7329, 25, 1)
+material = SubResource("StandardMaterial3D_jetgs")
+
+[node name="Sketchfab_Scene" parent="." unique_id=708833286 instance=ExtResource("5_h7ntg")]
+transform = Transform3D(62.260242, 0, 0, 0, 25.968506, 0, 0, 0, 37.749268, 80.180664, 4.7683716e-07, 41.14411)
