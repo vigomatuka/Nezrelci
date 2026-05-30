@@ -2,23 +2,24 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://djde5agfdmn2d"
-path="res://.godot/imported/Idele_glavnii_likglb_Dreyar_specular.png-5294f09ce1048622c7ed053e9abf3fd1.ctex"
+uid="uid://72oe8cgvx8ml"
+path.s3tc="res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_Blade_Metallic.1001-Cyber_Sword_Blade_Roughness.png-5e7b7fff996b233b3d42c1248215971b.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 generator_parameters={
-"md5": "c95ce5fa110ed1e6cc46265f4e0bbc72"
+"md5": "9772de6a865e03a8e2554a441d56cae6"
 }
 
 [deps]
 
-source_file="res://Models/player/Idele_glavnii_likglb_Dreyar_specular.png"
-dest_files=["res://.godot/imported/Idele_glavnii_likglb_Dreyar_specular.png-5294f09ce1048622c7ed053e9abf3fd1.ctex"]
+source_file="res://Models/new folder/new_dreyar_cybersword_Cyber_Sword_Blade_Metallic.1001-Cyber_Sword_Blade_Roughness.png"
+dest_files=["res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_Blade_Metallic.1001-Cyber_Sword_Blade_Roughness.png-5e7b7fff996b233b3d42c1248215971b.s3tc.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
@@ -40,4 +41,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0
