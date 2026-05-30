@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://d3s1uohq0y8wg"]
+
+[ext_resource type="PackedScene" uid="uid://cnedxfn2pxh2t" path="res://levels/test_level/level.tscn" id="1_8uh7m"]
+[ext_resource type="PackedScene" uid="uid://deo6fvmni02h7" path="res://Models/old_player/player_3d.tscn" id="2_6uqi0"]
+[ext_resource type="PackedScene" uid="uid://bc4uyi5to2nll" path="res://enemy.tscn" id="2_ppyta"]
+
+[node name="Node3D" type="Node3D" unique_id=1705835669]
+
+[node name="Level" parent="." unique_id=1098740361 instance=ExtResource("1_8uh7m")]
+
+[node name="Player_3d" parent="." unique_id=39815255 instance=ExtResource("2_6uqi0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, 0.90000004, -39.600002)
+
+[node name="CSGCombiner3D3" type="CSGCombiner3D" parent="." unique_id=1245909069]
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D3" unique_id=1172345905]
+transform = Transform3D(1, 0, 0, 0, 1.44, 0, 0, 0, 1, 0, 1.52, -37.200005)
+size = Vector3(1, 2, 1.6)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D3" unique_id=1525897595]
+transform = Transform3D(0.64278764, 0, -0.76604444, 0, 1.44, 0, 0.76604444, 0, 0.64278764, 1.5945157, 1.448, -39.778706)
+size = Vector3(0.5, 2.1000001, 2.8)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="CSGCombiner3D3" unique_id=38801800]
+transform = Transform3D(1, 0, 0, 0, 1.44, 0, 0, 0, 1, 2.3999999, 0.41199997, -33.300007)
+size = Vector3(1, 0.6, 0.8)
+
+[node name="Enemy" parent="CSGCombiner3D3" unique_id=178764703 instance=ExtResource("2_ppyta")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -30.2)

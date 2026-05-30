@@ -1,0 +1,443 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.44607555866241455,
+        0.44884711503982544,
+        0.7500698566436768
+      ],
+      "min": [
+        -0.44607555866241455,
+        -0.44884711503982544,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999307990074158,
+        0.9999247193336487,
+        1.0
+      ],
+      "min": [
+        -0.9998961091041565,
+        -0.999974250793457,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999387264251709,
+        0.9999696612358093,
+        0.9998319745063782,
+        1.0
+      ],
+      "min": [
+        -0.9999849200248718,
+        -0.9999720454216003,
+        -0.9999940991401672,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9980574250221252,
+        0.9961243271827698
+      ],
+      "min": [
+        0.001939689158461988,
+        0.0019398098811507225
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9980574250221252,
+        0.9961243271827698
+      ],
+      "min": [
+        0.001939689158461988,
+        0.0019398098811507225
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 236310,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 13980,
+      "max": [
+        0.4361785650253296,
+        0.4484080672264099,
+        0.7482900619506836
+      ],
+      "min": [
+        -0.4456997513771057,
+        -0.44884711503982544,
+        0.0007725755567662418
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1740528,
+      "componentType": 5126,
+      "count": 13980,
+      "max": [
+        0.9998077750205994,
+        0.9982113242149353,
+        0.9999979734420776
+      ],
+      "min": [
+        -0.9996502995491028,
+        -0.9996558427810669,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 13980,
+      "max": [
+        0.9997292757034302,
+        0.9999800324440002,
+        0.9991462230682373,
+        1.0
+      ],
+      "min": [
+        -0.9999027252197266,
+        -0.999969482421875,
+        -0.9999527335166931,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 13980,
+      "max": [
+        0.9980601072311401,
+        0.9961209893226624
+      ],
+      "min": [
+        0.0019397003343328834,
+        0.001939708599820733
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1160352,
+      "componentType": 5126,
+      "count": 13980,
+      "max": [
+        0.9980601072311401,
+        0.9961209893226624
+      ],
+      "min": [
+        0.0019397003343328834,
+        0.001939708599820733
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 945240,
+      "componentType": 5125,
+      "count": 19602,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Jungle Jim (https://sketchfab.com/jungle_jim)",
+      "license": "COPYRIGHT TO Jungle Jim",
+      "source": "https://sketchfab.com/3d-models/rock-mountain-with-cave-realistic-85k-by-jj-fbx-184293c4ef6f49daa06ea2654a40b6ed",
+      "title": "Rock Mountain with cave realistic 85k by JJ_FBX_"
+    },
+    "generator": "Sketchfab-17.15.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1023648,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1272192,
+      "byteOffset": 1023648,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1908288,
+      "byteOffset": 2295840,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1272192,
+      "byteOffset": 4204128,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5476320,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/Rock_Mountain_with_cave_realistic_85k_by_JJ_gameasset_Mat_1_diffuse.png"
+    },
+    {
+      "uri": "textures/Rock_Mountain_with_cave_realistic_85k_by_JJ_gameasset_Mat_1_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/Rock_Mountain_with_cave_realistic_85k_by_JJ_gameasset_Mat_1_normal.png"
+    },
+    {
+      "uri": "textures/Rock_Mountain_with_cave_realistic_85k_by_JJ_gameasset_Mat_1_occlusion.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      },
+      "name": "Rock_Mountain_with_cave_realistic_85k_by_JJ_gameasset_Mat_1",
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.25362191568259707
+      },
+      "occlusionTexture": {
+        "index": 3
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Rock Mountain with cave realistic 85k by JJ_gameasset_Rock Mountain with cave realistic 85k by JJ_gameasset_Mat_1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Rock Mountain with cave realistic 85k by JJ_gameasset_Rock Mountain with cave realistic 85k by JJ_gameasset_Mat_1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "d2e2fe20e67f4a018b4838985bf33368.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.6292067939183141e-07,
+        -0.9999999999999868,
+        0.0,
+        0.0,
+        0.9999999999999868,
+        -1.6292067939183141e-07,
+        0.0,
+        0.01186247169971466,
+        -0.0012148638488724828,
+        0.028450876474380493,
+        1.0
+      ],
+      "name": "Rock Mountain with cave realistic 85k by JJ_gameasset"
+    },
+    {
+      "mesh": 0,
+      "name": "Rock Mountain with cave realistic 85k by JJ_gameasset_Rock Mountain with cave realistic 85k by JJ_gameasset_Mat_1_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Rock Mountain with cave realistic 85k by JJ_gameasset_Rock Mountain with cave realistic 85k by JJ_gameasset_Mat_1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
