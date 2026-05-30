@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hylxo1kovlis"
-path.s3tc="res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_cover_BaseColor.png-17ed53dae2f929f497e12a68dad32fb2.s3tc.ctex"
+uid="uid://br3ggolg1hyjx"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_out_BaseColor.png-f6d33228cdd4490253d88707327934b5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "2d07ef1673e634d0fba05fecad538eeb"
+"md5": "3215bdade71ed7833f03f927a0248bdc"
 }
 
 [deps]
 
-source_file="res://Models/new folder/new_dreyar_cybersword_Cyber_Sword_cover_BaseColor.png"
-dest_files=["res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_cover_BaseColor.png-17ed53dae2f929f497e12a68dad32fb2.s3tc.ctex"]
+source_file="res://Models/new folder/main_character_Cyber_Sword_out_BaseColor.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_out_BaseColor.png-f6d33228cdd4490253d88707327934b5.s3tc.ctex"]
 
 [params]
 

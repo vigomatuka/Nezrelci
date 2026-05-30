@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cfndurlqlo4ur"
-path.s3tc="res://.godot/imported/new_dreyar_cybersword_Dreyar_diffuse.png-87a199cc08d19bdacbb93b089d4d9df5.s3tc.ctex"
+uid="uid://fo5qt38twhnq"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_cover_Emissive.png-db7d7d2de13b478b90feb2d8d685a246.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "83d535c933bfc39175969fb2e289da05"
+"md5": "9e7e09d5f5ffafe7da4b57603348d589"
 }
 
 [deps]
 
-source_file="res://Models/new folder/new_dreyar_cybersword_Dreyar_diffuse.png"
-dest_files=["res://.godot/imported/new_dreyar_cybersword_Dreyar_diffuse.png-87a199cc08d19bdacbb93b089d4d9df5.s3tc.ctex"]
+source_file="res://Models/new folder/main_character_Cyber_Sword_cover_Emissive.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_cover_Emissive.png-db7d7d2de13b478b90feb2d8d685a246.s3tc.ctex"]
 
 [params]
 

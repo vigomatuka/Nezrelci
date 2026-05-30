@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://deo6fvmni02h7"]
 
-[ext_resource type="Script" uid="uid://cbgd425ihwfsu" path="res://Models/old_player/player_3d.gd" id="1_a5lo2"]
-[ext_resource type="PackedScene" uid="uid://i75svfc3y5wb" path="res://Models/player/main_character.glb" id="2_d2fjq"]
-[ext_resource type="Script" uid="uid://bfsfa6x2lxbi1" path="res://Models/player/main_skin.gd" id="3_qihqb"]
+[ext_resource type="Script" uid="uid://boam10xouedkd" path="res://Models/new folder/player_3d.gd" id="1_qihqb"]
+[ext_resource type="PackedScene" uid="uid://d37oyeobmdbno" path="res://Models/new folder/main_character.glb" id="2_qihqb"]
+[ext_resource type="Script" uid="uid://d2pjpraluq7oq" path="res://Models/new folder/main_skin.gd" id="3_mpufp"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_a5lo2"]
 radius = 0.4
@@ -10,12 +10,12 @@ radius = 0.4
 [sub_resource type="SphereShape3D" id="SphereShape3D_a5lo2"]
 
 [node name="Player_3d" type="CharacterBody3D" unique_id=39815255 groups=["Player"]]
-script = ExtResource("1_a5lo2")
+script = ExtResource("1_qihqb")
 
-[node name="main_character" parent="." unique_id=1840380149 instance=ExtResource("2_d2fjq")]
+[node name="main_character" parent="." unique_id=2137528210 instance=ExtResource("2_qihqb")]
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.8, 0)
-script = ExtResource("3_qihqb")
+script = ExtResource("3_mpufp")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2074169584]
 transform = Transform3D(1, 0, 0, 0, 0.9, 0, 0, 0, 1, 0, 0, 0)

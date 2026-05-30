@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b141775rilyi"
-path.s3tc="res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_out_Normal.png-0d5a860b49ccc8ec0235d644dc701d14.s3tc.ctex"
+uid="uid://bcm60d7oo3lom"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_out_Metallic.1001-Cyber_Sword_out_Roughness.png-2a765e4a33f9a9b8a648df9376a94867.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "05d043a777e8a0b7f5f225cd8e5cdfa2"
+"md5": "d115e52f2cd38566e83acfb021c7ddce"
 }
 
 [deps]
 
-source_file="res://Models/new folder/new_dreyar_cybersword_Cyber_Sword_out_Normal.png"
-dest_files=["res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_out_Normal.png-0d5a860b49ccc8ec0235d644dc701d14.s3tc.ctex"]
+source_file="res://Models/new folder/main_character_Cyber_Sword_out_Metallic.1001-Cyber_Sword_out_Roughness.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_out_Metallic.1001-Cyber_Sword_out_Roughness.png-2a765e4a33f9a9b8a648df9376a94867.s3tc.ctex"]
 
 [params]
 
@@ -25,12 +25,12 @@ compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
-compress/normal_map=1
+compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=1
-roughness/src_normal="res://Models/new folder/new_dreyar_cybersword_Cyber_Sword_out_Normal.png"
+roughness/mode=0
+roughness/src_normal=""
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2

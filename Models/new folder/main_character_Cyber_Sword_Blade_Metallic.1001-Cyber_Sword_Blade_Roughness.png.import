@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://gjg5llfp4aix"
-path.s3tc="res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_Grip_Normal.png-d5c705485fec73872e63e56a8539645d.s3tc.ctex"
+uid="uid://ybd4k3co3s5c"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_Blade_Metallic.1001-Cyber_Sword_Blade_Roughness.png-6fdf7bce19bb8a659b0b8e1a6e6633b3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "cfd6daced79dae59e3b52defc70f7185"
+"md5": "9772de6a865e03a8e2554a441d56cae6"
 }
 
 [deps]
 
-source_file="res://Models/new folder/new_dreyar_cybersword_Cyber_Sword_Grip_Normal.png"
-dest_files=["res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_Grip_Normal.png-d5c705485fec73872e63e56a8539645d.s3tc.ctex"]
+source_file="res://Models/new folder/main_character_Cyber_Sword_Blade_Metallic.1001-Cyber_Sword_Blade_Roughness.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_Blade_Metallic.1001-Cyber_Sword_Blade_Roughness.png-6fdf7bce19bb8a659b0b8e1a6e6633b3.s3tc.ctex"]
 
 [params]
 
@@ -25,12 +25,12 @@ compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
-compress/normal_map=1
+compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=1
-roughness/src_normal="res://Models/new folder/new_dreyar_cybersword_Cyber_Sword_Grip_Normal.png"
+roughness/mode=0
+roughness/src_normal=""
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2

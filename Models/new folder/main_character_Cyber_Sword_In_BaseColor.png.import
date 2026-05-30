@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b4ys8so18dmog"
-path.s3tc="res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_Metal_Metallic.1001-Cyber_Sword_Metal_Roughness.png-93fedc0f84327e8328b107ff532bb89b.s3tc.ctex"
+uid="uid://d0xhi7ywxit4e"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_In_BaseColor.png-2decf8eef04c9e1921f299ef441659ae.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "e999744aea3ef2a4b7a4c8a482932974"
+"md5": "8224b13ad5977c505b9fc7d34ed56471"
 }
 
 [deps]
 
-source_file="res://Models/new folder/new_dreyar_cybersword_Cyber_Sword_Metal_Metallic.1001-Cyber_Sword_Metal_Roughness.png"
-dest_files=["res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_Metal_Metallic.1001-Cyber_Sword_Metal_Roughness.png-93fedc0f84327e8328b107ff532bb89b.s3tc.ctex"]
+source_file="res://Models/new folder/main_character_Cyber_Sword_In_BaseColor.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_In_BaseColor.png-2decf8eef04c9e1921f299ef441659ae.s3tc.ctex"]
 
 [params]
 

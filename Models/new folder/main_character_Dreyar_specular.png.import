@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1c5di4l3fg41"
-path="res://.godot/imported/new_dreyar_cybersword_Dreyar_specular.png-03a482e7ddc3a43adb33795fb224770d.ctex"
+uid="uid://7f3wp7r4gfyu"
+path="res://.godot/imported/main_character_Dreyar_specular.png-d2b2912cb3f191f05b1b3c7b6212a3c7.ctex"
 metadata={
 "vram_texture": false
 }
@@ -13,8 +13,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Models/new folder/new_dreyar_cybersword_Dreyar_specular.png"
-dest_files=["res://.godot/imported/new_dreyar_cybersword_Dreyar_specular.png-03a482e7ddc3a43adb33795fb224770d.ctex"]
+source_file="res://Models/new folder/main_character_Dreyar_specular.png"
+dest_files=["res://.godot/imported/main_character_Dreyar_specular.png-d2b2912cb3f191f05b1b3c7b6212a3c7.ctex"]
 
 [params]
 

@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpyyhiqwbtu68"
-path.s3tc="res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_cover_Normal.png-f87228b6e11be2f045c65adf52cbc58d.s3tc.ctex"
+uid="uid://dlay7d3cei426"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_In_Metallic.1001-Cyber_Sword_In_Roughness.png-dc09b696878f2f4ed31ca4f7180d9774.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "84ca3ff0edda18b868dcd19786563ae9"
+"md5": "ce3e3fb4519d619e8025ccafd475d701"
 }
 
 [deps]
 
-source_file="res://Models/new folder/new_dreyar_cybersword_Cyber_Sword_cover_Normal.png"
-dest_files=["res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_cover_Normal.png-f87228b6e11be2f045c65adf52cbc58d.s3tc.ctex"]
+source_file="res://Models/new folder/main_character_Cyber_Sword_In_Metallic.1001-Cyber_Sword_In_Roughness.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_In_Metallic.1001-Cyber_Sword_In_Roughness.png-dc09b696878f2f4ed31ca4f7180d9774.s3tc.ctex"]
 
 [params]
 
@@ -25,12 +25,12 @@ compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
-compress/normal_map=1
+compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=1
-roughness/src_normal="res://Models/new folder/new_dreyar_cybersword_Cyber_Sword_cover_Normal.png"
+roughness/mode=0
+roughness/src_normal=""
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2

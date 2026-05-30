@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://deqw01ujlbpfi"
-path.s3tc="res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_Grip_Metallic.1001-Cyber_Sword_Grip_Roughness.png-66dcc32f4b30e221787eab03e05a1306.s3tc.ctex"
+uid="uid://idrgdt3nx2ul"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_Grip_BaseColor.png-6b7ae0b7e4483ca9e167fac11fde14e9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "dc6eaead41de8ba08592fd2d26071407"
+"md5": "4dbc8305f3d484c896fc285bbd9b6d91"
 }
 
 [deps]
 
-source_file="res://Models/new folder/new_dreyar_cybersword_Cyber_Sword_Grip_Metallic.1001-Cyber_Sword_Grip_Roughness.png"
-dest_files=["res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_Grip_Metallic.1001-Cyber_Sword_Grip_Roughness.png-66dcc32f4b30e221787eab03e05a1306.s3tc.ctex"]
+source_file="res://Models/new folder/main_character_Cyber_Sword_Grip_BaseColor.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_Grip_BaseColor.png-6b7ae0b7e4483ca9e167fac11fde14e9.s3tc.ctex"]
 
 [params]
 

@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bl2jl5kgburuf"
-path.s3tc="res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_out_Metallic.1001-Cyber_Sword_out_Roughness.png-d6d70cd502d1f88f3866a2bd9bbae44f.s3tc.ctex"
+uid="uid://d0thaji3ysktx"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_Blade_Emissive.png-702ddb9ff7eae3b8fb4779be1674e3b0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "d115e52f2cd38566e83acfb021c7ddce"
+"md5": "153ba497e551701147af8a2f7e2eef56"
 }
 
 [deps]
 
-source_file="res://Models/new folder/new_dreyar_cybersword_Cyber_Sword_out_Metallic.1001-Cyber_Sword_out_Roughness.png"
-dest_files=["res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_out_Metallic.1001-Cyber_Sword_out_Roughness.png-d6d70cd502d1f88f3866a2bd9bbae44f.s3tc.ctex"]
+source_file="res://Models/new folder/main_character_Cyber_Sword_Blade_Emissive.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_Blade_Emissive.png-702ddb9ff7eae3b8fb4779be1674e3b0.s3tc.ctex"]
 
 [params]
 

@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnnt1bpsew3b0"
-path.s3tc="res://.godot/imported/new_dreyar_cybersword_Dreyar_normal.png-d8f14bff44624c28fa5f5ce74bc955f9.s3tc.ctex"
+uid="uid://csnmdg30k6miu"
+path.s3tc="res://.godot/imported/main_character_Dreyar_diffuse.png-5e963e5e5c35e4783fc59e6fadae2250.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "3b698da1d8fbf33af27fa9c10d35a34a"
+"md5": "83d535c933bfc39175969fb2e289da05"
 }
 
 [deps]
 
-source_file="res://Models/new folder/new_dreyar_cybersword_Dreyar_normal.png"
-dest_files=["res://.godot/imported/new_dreyar_cybersword_Dreyar_normal.png-d8f14bff44624c28fa5f5ce74bc955f9.s3tc.ctex"]
+source_file="res://Models/new folder/main_character_Dreyar_diffuse.png"
+dest_files=["res://.godot/imported/main_character_Dreyar_diffuse.png-5e963e5e5c35e4783fc59e6fadae2250.s3tc.ctex"]
 
 [params]
 
@@ -25,12 +25,12 @@ compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
-compress/normal_map=1
+compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=1
-roughness/src_normal="res://Models/new folder/new_dreyar_cybersword_Dreyar_normal.png"
+roughness/mode=0
+roughness/src_normal=""
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2

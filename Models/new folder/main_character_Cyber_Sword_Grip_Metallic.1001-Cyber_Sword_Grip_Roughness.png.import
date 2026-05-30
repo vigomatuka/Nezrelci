@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b5fb348nyrllh"
-path.s3tc="res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_cover_Emissive.png-ebeec14113a335af8d8d0e98bfbcf75f.s3tc.ctex"
+uid="uid://nx1hveeq3lst"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_Grip_Metallic.1001-Cyber_Sword_Grip_Roughness.png-c1fc1750cd8f14dcbc7715bf90e38fbe.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "9e7e09d5f5ffafe7da4b57603348d589"
+"md5": "dc6eaead41de8ba08592fd2d26071407"
 }
 
 [deps]
 
-source_file="res://Models/new folder/new_dreyar_cybersword_Cyber_Sword_cover_Emissive.png"
-dest_files=["res://.godot/imported/new_dreyar_cybersword_Cyber_Sword_cover_Emissive.png-ebeec14113a335af8d8d0e98bfbcf75f.s3tc.ctex"]
+source_file="res://Models/new folder/main_character_Cyber_Sword_Grip_Metallic.1001-Cyber_Sword_Grip_Roughness.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_Grip_Metallic.1001-Cyber_Sword_Grip_Roughness.png-c1fc1750cd8f14dcbc7715bf90e38fbe.s3tc.ctex"]
 
 [params]
 
