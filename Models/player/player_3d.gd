@@ -1,7 +1,8 @@
 extends CharacterBody3D
 
 @export_group("Camera")
-@export_range(0.0, 1.0) var mouse_sensitivity := 0.25
+@export_range(0.0, 1.0)
+var mouse_sensitivity := 0.25
 
 @export_group("Movement")
 @export var move_speed := 8.0
@@ -18,7 +19,7 @@ var _attack_pressed := false
 
 @onready var _camera_pivot: Node3D = %CameraPivot
 @onready var _camera: Camera3D = %Camera3D
-@onready var _skin: = %main_character
+@onready var _skin = %main_character
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("right_click"):

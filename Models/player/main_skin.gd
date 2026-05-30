@@ -31,3 +31,10 @@ func _on_animation_finished(anim_name: StringName) -> void:
 	
 func _ready():
 	anim_player.animation_finished.connect(_on_animation_finished)
+
+func get_attack_progress() -> float:
+	if anim_player.current_animation != "attack":
+		return 0.0
+	if anim_player.current_animation_length <= 0.0:
+		return 0.0
+	return anim_player.current_animation_position / anim_player.current_animation_length
