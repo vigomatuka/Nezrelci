@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://deo6fvmni02h7"]
 
-[ext_resource type="Script" uid="uid://cbgd425ihwfsu" path="res://player/player_3d.gd" id="1_a5lo2"]
-[ext_resource type="PackedScene" uid="uid://5b0dufgelv06" path="res://player/Main_character.glb" id="1_nni6y"]
+[ext_resource type="Script" uid="uid://cbgd425ihwfsu" path="res://Models/old_player/player_3d.gd" id="1_a5lo2"]
+[ext_resource type="PackedScene" uid="uid://5b0dufgelv06" path="res://Models/old_player/Main_character.glb" id="1_nni6y"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_a5lo2"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_a5lo2"]
 
-[node name="Player_3d" type="CharacterBody3D" unique_id=39815255]
+[node name="Player_3d" type="CharacterBody3D" unique_id=39815255 groups=["Player"]]
 script = ExtResource("1_a5lo2")
 
 [node name="Main_character" parent="." unique_id=1288656143 instance=ExtResource("1_nni6y")]
@@ -24,7 +24,7 @@ transform = Transform3D(1, 0, 0, 0, 0.8090169, -0.5877853, 0, 0.5877853, 0.80901
 [node name="SpringArm3D" type="SpringArm3D" parent="CameraPivot" unique_id=1626739559]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
 shape = SubResource("SphereShape3D_a5lo2")
-spring_length = 7.0
+spring_length = 6.0
 
 [node name="Camera3D" type="Camera3D" parent="CameraPivot/SpringArm3D" unique_id=2121802354]
 unique_name_in_owner = true

@@ -6,12 +6,13 @@ extends CharacterBody3D
 @export_group("Movement")
 @export var move_speed := 8.0
 @export var acceleration := 20.0
+@export var deceleration := 60.0
 @export var rotation_speed := 12.0
 @export var jump_impulse := 12.0
 
 var _camera_input_direction := Vector2.ZERO
 var _last_movement_direction := Vector3.BACK
-var _gravity := -30.0
+var _gravity := -40.0
 
 @onready var _camera_pivot: Node3D = %CameraPivot
 @onready var _camera: Camera3D = %Camera3D
@@ -50,13 +51,21 @@ func _physics_process(delta: float) -> void:
 	
 	var y_velocity := velocity.y
 	velocity.y = 0.0
-	velocity = velocity.move_toward(move_direction * move_speed, acceleration * delta)
+	#Izbaceno jer je to za glatko kretanje
+	#velocity = velocity.move_toward(move_direction * move_speed, acceleration * delta)
+	var target_velocity = move_direction * move_speed
+
+	if move_direction.length() > 0.0:
+		velocity = velocity.move_toward(target_velocity, acceleration * delta)
+	else:
+		velocity = velocity.move_toward(Vector3.ZERO, deceleration * delta)
+		
 	velocity.y = y_velocity + _gravity * delta
 	move_and_slide()
 	
 	if move_direction.length() > 0.2:
 		_last_movement_direction = move_direction
-	var target_angle := Vector3.BACK.signed_angle_to(_last_movement_direction, Vector3.UP)
+	var target_angle := Vector3.RIGHT.signed_angle_to(_last_movement_direction, Vector3.UP)
 	_skin.global_rotation.y = lerp_angle(_skin.rotation.y, target_angle, rotation_speed * delta)
 	
 	"""

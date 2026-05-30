@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://n1xs258xp7bn"
-path.s3tc="res://.godot/imported/Main_character_NormalGL_b2476040-78d8-479f-b247-a3d8b3f3dd03.jpg-50cb3f9f41747a2c2a9a6459da0bb4c3.s3tc.ctex"
+path.s3tc="res://.godot/imported/Main_character_NormalGL_b2476040-78d8-479f-b247-a3d8b3f3dd03.jpg-e21e5c4423f54497fd5b6f80f13e4a3d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://player/Main_character_NormalGL_b2476040-78d8-479f-b247-a3d8b3f3dd03.jpg"
-dest_files=["res://.godot/imported/Main_character_NormalGL_b2476040-78d8-479f-b247-a3d8b3f3dd03.jpg-50cb3f9f41747a2c2a9a6459da0bb4c3.s3tc.ctex"]
+source_file="res://Models/old_player/Main_character_NormalGL_b2476040-78d8-479f-b247-a3d8b3f3dd03.jpg"
+dest_files=["res://.godot/imported/Main_character_NormalGL_b2476040-78d8-479f-b247-a3d8b3f3dd03.jpg-e21e5c4423f54497fd5b6f80f13e4a3d.s3tc.ctex"]
 
 [params]
 
