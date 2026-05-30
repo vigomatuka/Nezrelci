@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bkavuhh4yjqsb"]
+
+[ext_resource type="Texture2D" uid="uid://cl615toscidrv" path="res://addons/tekstura/coast_sand_rocks_02_2k/textures/coast_sand_rocks_02_diff_2k.jpg" id="1_e1lhp"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xypf1"]
+albedo_texture = ExtResource("1_e1lhp")
+uv1_scale = Vector3(60, 60, 60)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_mufut"]
+material = SubResource("StandardMaterial3D_xypf1")
+size = Vector2(300, 300)
+
+[node name="Node3D" type="Node3D" unique_id=1206148103]
+
+[node name="zemlja" type="MeshInstance3D" parent="." unique_id=1867546992]
+mesh = SubResource("PlaneMesh_mufut")
