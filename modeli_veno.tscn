@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://wusb1afp84os"]
+
+[ext_resource type="PackedScene" uid="uid://cmgcorb3bs2em" path="res://demo/assets/Crkva_Sv_Nikole.glb" id="1_v5brq"]
+[ext_resource type="PackedScene" uid="uid://bfw54usaim5ii" path="res://demo/assets/grgur_ninski.glb" id="2_olhqq"]
+[ext_resource type="PackedScene" uid="uid://bgs18fst0ss1a" path="res://demo/assets/vlak_model (1).gltf" id="3_olhqq"]
+[ext_resource type="PackedScene" uid="uid://dpxp3vsr0g2aa" path="res://demo/assets/stari_grad_ispravna_tekstura_60k.glb" id="4_3jixp"]
+[ext_resource type="PackedScene" uid="uid://lm3haabh83ih" path="res://demo/assets/vjecnica_60k.glb" id="5_lgdwh"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_atdu1"]
+
+[node name="Node3D" type="Node3D" unique_id=79829721]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1619778674]
+transform = Transform3D(326.3786, 0, 0, 0, -0.008418421, 0, 0, 0, 371.63272, 28.497894, 0, 0)
+
+[node name="Sketchfab_Scene" parent="." unique_id=736748349 instance=ExtResource("1_v5brq")]
+transform = Transform3D(0.75078183, 0, 0, 0, 0.75078183, 0, 0, 0, 0.75078183, 41.103832, 0, -122.2383)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=648065407]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.99064016, 0.9420823, 1.1668124)
+mesh = SubResource("CapsuleMesh_atdu1")
+
+[node name="Sketchfab_Scene2" parent="." unique_id=1358860798 instance=ExtResource("2_olhqq")]
+transform = Transform3D(0.034007855, 0, 0, 0, 0.034007855, 0, 0, 0, 0.034007855, 39.60428, -0.27665222, -65.96361)
+
+[node name="vlak_model (1)" parent="." unique_id=151802213 instance=ExtResource("3_olhqq")]
+transform = Transform3D(0.66507226, 0, 0, 0, 0.66507226, 0, 0, 0, 0.66507226, 145.9179, -5.800926, -413.1822)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1065734623]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.5945816, 0)
+
+[node name="stari_grad_ispravna_tekstura_60k" parent="." unique_id=706761519 instance=ExtResource("4_3jixp")]
+transform = Transform3D(4.274558, 0, 0, 0, 4.274558, 0, 0, 0, 4.274558, 103.34572, 14.538809, -20.504948)
+
+[node name="vjecnica_60k" parent="." unique_id=1033876765 instance=ExtResource("5_lgdwh")]
+transform = Transform3D(1.0761935, 0, 0, 0, 1.0761935, 0, 0, 0, 1.0761935, 18.593496, 11.091309, -52.820774)
