@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://cnwgedgpk8koj" path="res://modeli/collectible_2_valjak.glb" id="2_dbju7"]
 [ext_resource type="PackedScene" uid="uid://dxncf7saphemd" path="res://modeli/vjecnica_60k.glb" id="3_koi6j"]
 [ext_resource type="Texture2D" uid="uid://daad7oxej27c4" path="res://addons/tekstura/medieval_red_brick_2k/textures/medieval_red_brick_diff_2k.png" id="4_koi6j"]
+[ext_resource type="PackedScene" uid="uid://dwjvxmwqfixp8" path="res://modeli/skinuti_modeli/rock_mountain_with_cave_realistic_85k_by_jj_fbx/scene.gltf" id="5_h7ntg"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xypf1"]
 albedo_texture = ExtResource("1_e1lhp")
@@ -75,3 +76,6 @@ material = SubResource("StandardMaterial3D_381ol")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -135.02957, -0.2192173, 151.25626)
 size = Vector3(322.7329, 25, 1)
 material = SubResource("StandardMaterial3D_jetgs")
+
+[node name="Sketchfab_Scene" parent="." unique_id=708833286 instance=ExtResource("5_h7ntg")]
+transform = Transform3D(62.260242, 0, 0, 0, 25.968506, 0, 0, 0, 37.749268, 80.180664, 4.7683716e-07, 41.14411)
