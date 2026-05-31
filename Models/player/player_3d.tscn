@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://deo6fvmni02h7"]
 
-[ext_resource type="Script" uid="uid://boam10xouedkd" path="res://models/player/player_3d.gd" id="1_qihqb"]
-[ext_resource type="PackedScene" uid="uid://d37oyeobmdbno" path="res://models/player/main_character.glb" id="2_qihqb"]
-[ext_resource type="Script" uid="uid://d2pjpraluq7oq" path="res://models/player/main_skin.gd" id="3_mpufp"]
+[ext_resource type="Script" uid="uid://boam10xouedkd" path="res://Models/player/player_3d.gd" id="1_qihqb"]
+[ext_resource type="PackedScene" uid="uid://d37oyeobmdbno" path="res://Models/player/main_character.glb" id="2_qihqb"]
+[ext_resource type="Script" uid="uid://d2pjpraluq7oq" path="res://Models/player/main_skin.gd" id="3_mpufp"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_a5lo2"]
 radius = 0.4
@@ -18,7 +18,7 @@ border_width_bottom = 2
 border_color = Color(0.40392157, 0.9882353, 0.003921569, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qvfm8"]
-bg_color = Color(0.40392157, 0.14509805, 0.9254902, 1)
+bg_color = Color(0.07058824, 0.7647059, 0.3137255, 1)
 
 [node name="Player_3d" type="CharacterBody3D" unique_id=39815255 groups=["Player"]]
 script = ExtResource("1_qihqb")
@@ -48,6 +48,7 @@ transform = Transform3D(1, 0, 0, 0, 1.0000001, 0, 0, 0, 1.0000001, 0, 0, 0)
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=86415794]
 
 [node name="HealthBar" type="ProgressBar" parent="CanvasLayer" unique_id=2064795462]
+unique_name_in_owner = true
 offset_left = 11.0
 offset_top = 619.0
 offset_right = 337.0

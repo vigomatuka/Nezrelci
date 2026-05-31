@@ -12,15 +12,41 @@ var _strafe_mode := false
 @export var deceleration := 200.0
 @export var rotation_speed := 12.0
 @export var jump_impulse := 12.0
+@export_group("Health")
+@export var max_health := 100.0
+@export var attack_range := 2.0
+@export var attack_damage := 25.0
+
 
 var _camera_input_direction := Vector2.ZERO
 var _last_movement_direction := Vector3.BACK
 var _gravity := -40.0
 var _attack_pressed := false
+var current_health := max_health
+var _has_dealt_damage := false
 
 @onready var _camera_pivot: Node3D = %CameraPivot
 @onready var _camera: Camera3D = %Camera3D
 @onready var _skin = %main_character
+@onready var _health_bar: ProgressBar = %HealthBar
+
+func _ready() -> void:
+	current_health = max_health
+	_health_bar.max_value = max_health
+	_health_bar.value = current_health
+
+func take_damage(amount: float) -> void:
+	current_health = max(current_health - amount, 0.0)
+	_health_bar.value = current_health
+	if current_health <= 0.0:
+		_die()
+
+func heal(amount: float) -> void:
+	current_health = min(current_health + amount, max_health)
+	_health_bar.value = current_health
+
+func _die() -> void:
+	get_tree().reload_current_scene()
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("right_click"):
@@ -101,6 +127,16 @@ func _physics_process(delta: float) -> void:
 	if _attack_pressed:
 		_skin.attack()
 		_attack_pressed = false
+		_has_dealt_damage = false
+
+	# Provjeri damage na sredini attack animacije
+	if _skin.is_attacking and not _has_dealt_damage and _skin.get_attack_progress() >= 0.5:
+		for enemy in get_tree().get_nodes_in_group("Enemy"):
+			var dist = global_position.distance_to(enemy.global_position)
+			if dist <= attack_range:
+				enemy.take_damage(attack_damage)
+		_has_dealt_damage = true
+		
 	elif ground_speed > 0.1:
 		_skin.run()
 	else:
