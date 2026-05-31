@@ -2,16 +2,30 @@ extends CharacterBody3D
 
 @export var move_speed := 4.0
 @export var attack_range := 1.5
+@export var attack_damage := 7.0
+@export var max_health := 100.0
+@export var detection_range := 10.0
 
 var player: CharacterBody3D = null
 var gravity := 30.0
 var is_attacking := false
+var _has_dealt_damage := false
+var current_health := max_health
 
 @onready var skin: Node3D = $assassin
+@onready var health_bar = $EnemyHealthBar
 
 func _ready() -> void:
+	add_to_group("Enemy")
 	player = get_tree().get_first_node_in_group("Player")
-	print(get_children())
+	current_health = max_health
+	health_bar.set_health(current_health, max_health)
+
+func take_damage(amount: float) -> void:
+	current_health -= amount
+	health_bar.set_health(current_health, max_health)
+	if current_health <= 0.0:
+		queue_free()
 
 func _physics_process(delta: float) -> void:
 	if player == null:
@@ -29,12 +43,15 @@ func _physics_process(delta: float) -> void:
 	direction = direction.normalized()
 
 	if is_attacking:
-		# Čekaj kraj attack animacije
 		if skin.is_attack_finished():
 			is_attacking = false
-		# Ne miči se za vrijeme napada
-		velocity.x = 0.0
-		velocity.z = 0.0
+			_has_dealt_damage = false  # reset za sljedeći napad
+		else:
+			if not _has_dealt_damage and skin.get_attack_progress() >= 0.5:
+				if distance <= attack_range:
+					player.take_damage(attack_damage)
+					_has_dealt_damage = true
+		
 	elif distance <= attack_range:
 		# Napadni
 		is_attacking = true
@@ -42,10 +59,14 @@ func _physics_process(delta: float) -> void:
 		velocity.x = 0.0
 		velocity.z = 0.0
 	else:
-		# Trči prema igraču
-		velocity.x = direction.x * move_speed
-		velocity.z = direction.z * move_speed
-		skin.play_run()
+		if distance <= detection_range:
+			# Trči prema igraču
+			velocity.x = direction.x * move_speed
+			velocity.z = direction.z * move_speed
+			skin.play_run()
+		else:
+			velocity.x = 0.0
+			velocity.z = 0.0
 
 	# Rotacija prema igraču
 	if direction.length() > 0.1 and not is_attacking:

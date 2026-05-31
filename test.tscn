@@ -2,7 +2,6 @@
 
 [ext_resource type="PackedScene" uid="uid://cnedxfn2pxh2t" path="res://levels/test_level/level.tscn" id="1_8uh7m"]
 [ext_resource type="PackedScene" uid="uid://deo6fvmni02h7" path="res://Models/player/player_3d.tscn" id="2_6uqi0"]
-[ext_resource type="PackedScene" uid="uid://bc4uyi5to2nll" path="res://Models/enemies/test_enemy/enemy.tscn" id="2_ppyta"]
 [ext_resource type="PackedScene" uid="uid://cq10sbxp0u047" path="res://Models/enemies/assasin/assasin.tscn" id="5_ykrsh"]
 
 [node name="Node3D" type="Node3D" unique_id=1705835669]
@@ -26,9 +25,6 @@ size = Vector3(0.5, 2.1000001, 2.8)
 [node name="CSGBox3D3" type="CSGBox3D" parent="CSGCombiner3D3" unique_id=38801800]
 transform = Transform3D(1, 0, 0, 0, 1.44, 0, 0, 0, 1, 2.3999999, 0.41199997, -33.300007)
 size = Vector3(1, 0.6, 0.8)
-
-[node name="Enemy" parent="." unique_id=178764703 instance=ExtResource("2_ppyta")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -30.2)
 
 [node name="Enemy2" parent="." unique_id=1089745343 instance=ExtResource("5_ykrsh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, 3.1000006, -28.800001)
