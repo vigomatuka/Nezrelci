@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://buuqv5o11bwyw"]
+
+[ext_resource type="Script" uid="uid://dv07b2j38w2b7" path="res://scripts/witch.gd" id="1_u5o7w"]
+[ext_resource type="PackedScene" uid="uid://cgvskoaw1ncn7" path="res://Models/enemies/witch/witch.glb" id="2_u5o7w"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7xaro"]
+radius = 0.29999998
+
+[node name="Enemy" type="CharacterBody3D" unique_id=178764703]
+script = ExtResource("1_u5o7w")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1165816438]
+shape = SubResource("CapsuleShape3D_7xaro")
+
+[node name="witch" parent="." unique_id=1494161389 instance=ExtResource("2_u5o7w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0.049999997)
