@@ -142,3 +142,13 @@ func _physics_process(delta: float) -> void:
 		_skin.run()
 	else:
 		_skin.idle()
+
+# ─── Limbo API ─────────────────────────────────────────────────────────────────
+var in_limbo: bool = false
+
+func enter_limbo() -> void:
+	in_limbo = true
+
+func exit_limbo() -> void:
+	in_limbo = false
+	velocity = Vector3.ZERO
