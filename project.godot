@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Nezrelci_godot"
-run/main_scene="uid://bkkrcxl4dj68l"
+run/main_scene="uid://dhss883um6eoq"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -35,6 +35,7 @@ import/blender/enabled=false
 
 okvir_terena="okvir koji drzi igraca unutar terena"
 Player=""
+player=""
 
 [input]
 
