@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwroh2aewy1tg"
-path.s3tc="res://.godot/imported/main_character_Cyber_Sword_cover_BaseColor.png-c6f5cf636f7c09d070b71ccaddad4fd7.s3tc.ctex"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_cover_BaseColor.png-1bfbf0b2320e58ec8d081735ad63e4b5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://models/player/main_character_Cyber_Sword_cover_BaseColor.png"
-dest_files=["res://.godot/imported/main_character_Cyber_Sword_cover_BaseColor.png-c6f5cf636f7c09d070b71ccaddad4fd7.s3tc.ctex"]
+source_file="res://Models/player/main_character_Cyber_Sword_cover_BaseColor.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_cover_BaseColor.png-1bfbf0b2320e58ec8d081735ad63e4b5.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bdsw5cbsiedui"
-path="res://.godot/imported/priest.glb-20d9ca6096895cb50d0fda7b9b2a0567.scn"
+path="res://.godot/imported/priest.glb-69bf56739e26d24dd9a4e58149f8bb8d.scn"
 
 [deps]
 
-source_file="res://models/enemies/priest/priest.glb"
-dest_files=["res://.godot/imported/priest.glb-20d9ca6096895cb50d0fda7b9b2a0567.scn"]
+source_file="res://Models/enemies/priest/priest.glb"
+dest_files=["res://.godot/imported/priest.glb-69bf56739e26d24dd9a4e58149f8bb8d.scn"]
 
 [params]
 

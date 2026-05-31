@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://xs6qptjvdtxx"
-path="res://.godot/imported/assassin.glb-9b087037e58e48583abc0729c1750bf6.scn"
+path="res://.godot/imported/assassin.glb-2893364da14ae35cc3032bf89d8d5dbf.scn"
 
 [deps]
 
-source_file="res://models/enemies/assasin/assassin.glb"
-dest_files=["res://.godot/imported/assassin.glb-9b087037e58e48583abc0729c1750bf6.scn"]
+source_file="res://Models/enemies/assasin/assassin.glb"
+dest_files=["res://.godot/imported/assassin.glb-2893364da14ae35cc3032bf89d8d5dbf.scn"]
 
 [params]
 

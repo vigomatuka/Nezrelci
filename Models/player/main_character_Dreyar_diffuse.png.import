@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csnmdg30k6miu"
-path.s3tc="res://.godot/imported/main_character_Dreyar_diffuse.png-0348dbd1bd0a4b63fe775c51689aacfd.s3tc.ctex"
+path.s3tc="res://.godot/imported/main_character_Dreyar_diffuse.png-29f4771d8133c3033776721a5c5e00e3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://models/player/main_character_Dreyar_diffuse.png"
-dest_files=["res://.godot/imported/main_character_Dreyar_diffuse.png-0348dbd1bd0a4b63fe775c51689aacfd.s3tc.ctex"]
+source_file="res://Models/player/main_character_Dreyar_diffuse.png"
+dest_files=["res://.godot/imported/main_character_Dreyar_diffuse.png-29f4771d8133c3033776721a5c5e00e3.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgndi87mq2g4q"
-path.s3tc="res://.godot/imported/priest_0.jpg-b503c522a6f7a92ca7b0da8d1c4e6e1a.s3tc.ctex"
+path.s3tc="res://.godot/imported/priest_0.jpg-77dcbc1bde7d73f854fbdd5b64e276b7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://models/enemies/priest/priest_0.jpg"
-dest_files=["res://.godot/imported/priest_0.jpg-b503c522a6f7a92ca7b0da8d1c4e6e1a.s3tc.ctex"]
+source_file="res://Models/enemies/priest/priest_0.jpg"
+dest_files=["res://.godot/imported/priest_0.jpg-77dcbc1bde7d73f854fbdd5b64e276b7.s3tc.ctex"]
 
 [params]
 
