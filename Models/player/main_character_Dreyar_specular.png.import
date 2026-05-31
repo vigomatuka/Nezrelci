@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7f3wp7r4gfyu"
-path="res://.godot/imported/main_character_Dreyar_specular.png-0487e6dc6224351e75723b502ef9f79d.ctex"
+path="res://.godot/imported/main_character_Dreyar_specular.png-2710ed9df74eb7b51263534006aff7e0.ctex"
 metadata={
 "vram_texture": false
 }
@@ -13,8 +13,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Models/player/main_character_Dreyar_specular.png"
-dest_files=["res://.godot/imported/main_character_Dreyar_specular.png-0487e6dc6224351e75723b502ef9f79d.ctex"]
+source_file="res://models/player/main_character_Dreyar_specular.png"
+dest_files=["res://.godot/imported/main_character_Dreyar_specular.png-2710ed9df74eb7b51263534006aff7e0.ctex"]
 
 [params]
 

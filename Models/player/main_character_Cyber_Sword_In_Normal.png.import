@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bejtewrmq21xc"
-path.s3tc="res://.godot/imported/main_character_Cyber_Sword_In_Normal.png-114629e37cf55550fb946146d72b959f.s3tc.ctex"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_In_Normal.png-3d8a90a71b06fe6c8a249395e13a5c05.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Models/player/main_character_Cyber_Sword_In_Normal.png"
-dest_files=["res://.godot/imported/main_character_Cyber_Sword_In_Normal.png-114629e37cf55550fb946146d72b959f.s3tc.ctex"]
+source_file="res://models/player/main_character_Cyber_Sword_In_Normal.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_In_Normal.png-3d8a90a71b06fe6c8a249395e13a5c05.s3tc.ctex"]
 
 [params]
 

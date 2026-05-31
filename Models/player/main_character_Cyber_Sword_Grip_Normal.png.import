@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfx0sctwu7xjx"
-path.s3tc="res://.godot/imported/main_character_Cyber_Sword_Grip_Normal.png-cd24d22210a0478bc6d71e2166b7d388.s3tc.ctex"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_Grip_Normal.png-8c5c02231e2c44e411235321d5c07b48.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Models/player/main_character_Cyber_Sword_Grip_Normal.png"
-dest_files=["res://.godot/imported/main_character_Cyber_Sword_Grip_Normal.png-cd24d22210a0478bc6d71e2166b7d388.s3tc.ctex"]
+source_file="res://models/player/main_character_Cyber_Sword_Grip_Normal.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_Grip_Normal.png-8c5c02231e2c44e411235321d5c07b48.s3tc.ctex"]
 
 [params]
 

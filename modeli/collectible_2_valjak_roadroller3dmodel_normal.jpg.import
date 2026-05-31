@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dw544rgvb1ly0"
+uid="uid://dea7jhijsioh5"
 path.s3tc="res://.godot/imported/collectible_2_valjak_roadroller3dmodel_normal.jpg-a4e98dda0e47db09fed187247e14361b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "802b045775a93f95b22b02a7a7ddbf1d"
 }
 
 [deps]

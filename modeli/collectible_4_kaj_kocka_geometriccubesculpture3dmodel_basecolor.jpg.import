@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bll2t03nyih21"
+uid="uid://c0mbosrppbfbf"
 path.s3tc="res://.godot/imported/collectible_4_kaj_kocka_geometriccubesculpture3dmodel_basecolor.jpg-477ec6fa74180e95fa05e61abf4a201f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "ed45844d3338bdf725b0027a579a7c27"
 }
 
 [deps]

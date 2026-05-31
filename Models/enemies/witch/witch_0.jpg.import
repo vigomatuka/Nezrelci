@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cg4d3uxwrnpev"
-path.s3tc="res://.godot/imported/witch_0.jpg-1d93b5b8c5997adb8f353c1956905617.s3tc.ctex"
+path.s3tc="res://.godot/imported/witch_0.jpg-1e0371e5fde17e2ff8855b1d6b44f2a8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Models/enemies/witch/witch_0.jpg"
-dest_files=["res://.godot/imported/witch_0.jpg-1d93b5b8c5997adb8f353c1956905617.s3tc.ctex"]
+source_file="res://models/enemies/witch/witch_0.jpg"
+dest_files=["res://.godot/imported/witch_0.jpg-1e0371e5fde17e2ff8855b1d6b44f2a8.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3mud2vh5xo3b"
-path.s3tc="res://.godot/imported/main_character_Cyber_Sword_Metal_Metallic.1001-Cyber_Sword_Metal_Roughness.png-a1d7635e4e15f9200b033167099e64f4.s3tc.ctex"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_Metal_Metallic.1001-Cyber_Sword_Metal_Roughness.png-6852fdc4c1645ca23566e7c08f6c814c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Models/player/main_character_Cyber_Sword_Metal_Metallic.1001-Cyber_Sword_Metal_Roughness.png"
-dest_files=["res://.godot/imported/main_character_Cyber_Sword_Metal_Metallic.1001-Cyber_Sword_Metal_Roughness.png-a1d7635e4e15f9200b033167099e64f4.s3tc.ctex"]
+source_file="res://models/player/main_character_Cyber_Sword_Metal_Metallic.1001-Cyber_Sword_Metal_Roughness.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_Metal_Metallic.1001-Cyber_Sword_Metal_Roughness.png-6852fdc4c1645ca23566e7c08f6c814c.s3tc.ctex"]
 
 [params]
 
