@@ -12,6 +12,9 @@ var _strafe_mode := false
 @export var deceleration := 200.0
 @export var rotation_speed := 12.0
 @export var jump_impulse := 12.0
+@export_group("Health")
+@export var max_health := 100.0
+var current_health := max_health
 
 var _camera_input_direction := Vector2.ZERO
 var _last_movement_direction := Vector3.BACK
@@ -21,6 +24,25 @@ var _attack_pressed := false
 @onready var _camera_pivot: Node3D = %CameraPivot
 @onready var _camera: Camera3D = %Camera3D
 @onready var _skin = %main_character
+@onready var _health_bar: ProgressBar = %HealthBar
+
+func _ready() -> void:
+	current_health = max_health
+	_health_bar.max_value = max_health
+	_health_bar.value = current_health
+
+func take_damage(amount: float) -> void:
+	current_health = max(current_health - amount, 0.0)
+	_health_bar.value = current_health
+	if current_health <= 0.0:
+		_die()
+
+func heal(amount: float) -> void:
+	current_health = min(current_health + amount, max_health)
+	_health_bar.value = current_health
+
+func _die() -> void:
+	get_tree().reload_current_scene()
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("right_click"):

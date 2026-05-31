@@ -10,3 +10,8 @@ func play_attack() -> void:
 
 func is_attack_finished() -> bool:
 	return not animation_player.is_playing() or animation_player.current_animation != "attack"
+
+func get_attack_progress() -> float:
+	if animation_player.current_animation != "attack":
+		return 0.0
+	return animation_player.current_animation_position / animation_player.current_animation_length

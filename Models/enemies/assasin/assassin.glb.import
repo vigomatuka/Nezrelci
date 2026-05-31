@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://xs6qptjvdtxx"
-path="res://.godot/imported/assassin.glb-9b087037e58e48583abc0729c1750bf6.scn"
+path="res://.godot/imported/assassin.glb-2893364da14ae35cc3032bf89d8d5dbf.scn"
 
 [deps]
 
-source_file="res://models/enemies/assasin/assassin.glb"
-dest_files=["res://.godot/imported/assassin.glb-9b087037e58e48583abc0729c1750bf6.scn"]
+source_file="res://Models/enemies/assasin/assassin.glb"
+dest_files=["res://.godot/imported/assassin.glb-2893364da14ae35cc3032bf89d8d5dbf.scn"]
 
 [params]
 
@@ -17,7 +17,7 @@ nodes/root_type=""
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true
-nodes/root_scale=1.0
+nodes/root_scale=7.0
 nodes/import_as_skeleton_bones=false
 nodes/use_name_suffixes=true
 nodes/use_node_type_suffixes=true

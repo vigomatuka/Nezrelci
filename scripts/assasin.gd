@@ -2,10 +2,12 @@ extends CharacterBody3D
 
 @export var move_speed := 4.0
 @export var attack_range := 1.5
+@export var attack_damage := 20.0
 
 var player: CharacterBody3D = null
 var gravity := 30.0
 var is_attacking := false
+var _has_dealt_damage := false
 
 @onready var skin: Node3D = $assassin
 
@@ -29,12 +31,15 @@ func _physics_process(delta: float) -> void:
 	direction = direction.normalized()
 
 	if is_attacking:
-		# Čekaj kraj attack animacije
 		if skin.is_attack_finished():
 			is_attacking = false
-		# Ne miči se za vrijeme napada
-		velocity.x = 0.0
-		velocity.z = 0.0
+			_has_dealt_damage = false  # reset za sljedeći napad
+		else:
+			if not _has_dealt_damage and skin.get_attack_progress() >= 0.5:
+				if distance <= attack_range:
+					player.take_damage(attack_damage)
+					_has_dealt_damage = true
+		
 	elif distance <= attack_range:
 		# Napadni
 		is_attacking = true

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlay7d3cei426"
-path.s3tc="res://.godot/imported/main_character_Cyber_Sword_In_Metallic.1001-Cyber_Sword_In_Roughness.png-1b32657a91bc548a77dbca8edcfb6f03.s3tc.ctex"
+path.s3tc="res://.godot/imported/main_character_Cyber_Sword_In_Metallic.1001-Cyber_Sword_In_Roughness.png-d2c882fc840bd95cd8718e244adc50b7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://models/player/main_character_Cyber_Sword_In_Metallic.1001-Cyber_Sword_In_Roughness.png"
-dest_files=["res://.godot/imported/main_character_Cyber_Sword_In_Metallic.1001-Cyber_Sword_In_Roughness.png-1b32657a91bc548a77dbca8edcfb6f03.s3tc.ctex"]
+source_file="res://Models/player/main_character_Cyber_Sword_In_Metallic.1001-Cyber_Sword_In_Roughness.png"
+dest_files=["res://.godot/imported/main_character_Cyber_Sword_In_Metallic.1001-Cyber_Sword_In_Roughness.png-d2c882fc840bd95cd8718e244adc50b7.s3tc.ctex"]
 
 [params]
 

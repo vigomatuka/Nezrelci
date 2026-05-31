@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cgvskoaw1ncn7"
-path="res://.godot/imported/witch.glb-917b4fe6794f28908419f98caf803ff3.scn"
+path="res://.godot/imported/witch.glb-8679ae09758965586c3bf862dee0e76a.scn"
 
 [deps]
 
-source_file="res://models/enemies/witch/witch.glb"
-dest_files=["res://.godot/imported/witch.glb-917b4fe6794f28908419f98caf803ff3.scn"]
+source_file="res://Models/enemies/witch/witch.glb"
+dest_files=["res://.godot/imported/witch.glb-8679ae09758965586c3bf862dee0e76a.scn"]
 
 [params]
 

@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://deo6fvmni02h7"]
 
-[ext_resource type="Script" uid="uid://boam10xouedkd" path="res://models/player/player_3d.gd" id="1_qihqb"]
-[ext_resource type="PackedScene" uid="uid://d37oyeobmdbno" path="res://models/player/main_character.glb" id="2_qihqb"]
-[ext_resource type="Script" uid="uid://d2pjpraluq7oq" path="res://models/player/main_skin.gd" id="3_mpufp"]
+[ext_resource type="Script" uid="uid://boam10xouedkd" path="res://Models/player/player_3d.gd" id="1_qihqb"]
+[ext_resource type="PackedScene" uid="uid://d37oyeobmdbno" path="res://Models/player/main_character.glb" id="2_qihqb"]
+[ext_resource type="Script" uid="uid://d2pjpraluq7oq" path="res://Models/player/main_skin.gd" id="3_mpufp"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_a5lo2"]
 radius = 0.4
@@ -48,6 +48,7 @@ transform = Transform3D(1, 0, 0, 0, 1.0000001, 0, 0, 0, 1.0000001, 0, 0, 0)
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=86415794]
 
 [node name="HealthBar" type="ProgressBar" parent="CanvasLayer" unique_id=2064795462]
+unique_name_in_owner = true
 offset_left = 11.0
 offset_top = 619.0
 offset_right = 337.0
