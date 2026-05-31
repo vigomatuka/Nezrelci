@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://ltfk511sm88a"]
+
+[ext_resource type="Script" uid="uid://qq4kn350tyo0" path="res://laser.gd" id="1_sk6i7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sr4n4"]
+transparency = 1
+blend_mode = 1
+emission_enabled = true
+emission = Color(0.51471883, 0.0004095927, 0.571916, 1)
+emission_energy_multiplier = 4.0
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_gnoad"]
+material = SubResource("StandardMaterial3D_sr4n4")
+top_radius = 0.05
+bottom_radius = 0.05
+height = 1.0
+
+[node name="Laser" type="Node3D" unique_id=1876591802]
+script = ExtResource("1_sk6i7")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=85002180]
+mesh = SubResource("CylinderMesh_gnoad")
+
+[node name="RayCast3D" type="RayCast3D" parent="." unique_id=450920487]

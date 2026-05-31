@@ -1,9 +1,9 @@
-[gd_scene format=3 uid="uid://cq10sbxp0u047"]
+[gd_scene format=3 uid="uid://b43dsb1l8jas6"]
 
 [ext_resource type="Script" uid="uid://cwv1l6bw6ft72" path="res://scripts/assasin.gd" id="1_fief6"]
-[ext_resource type="PackedScene" uid="uid://xs6qptjvdtxx" path="res://Models/enemies/assasin/assassin.glb" id="2_6ccg2"]
-[ext_resource type="Script" uid="uid://n3e8w7c7g6u2" path="res://Models/enemies/assasin/assassin_skin.gd" id="3_fief6"]
-[ext_resource type="PackedScene" uid="uid://f1iypyrlegrq" path="res://Models/enemies/enemy_health_bar.tscn" id="4_lcuss"]
+[ext_resource type="PackedScene" uid="uid://xs6qptjvdtxx" path="res://models/enemies/assasin/assassin.glb" id="2_6ccg2"]
+[ext_resource type="Script" uid="uid://n3e8w7c7g6u2" path="res://models/enemies/assasin/assassin_skin.gd" id="3_fief6"]
+[ext_resource type="PackedScene" uid="uid://f1iypyrlegrq" path="res://models/enemies/enemy_health_bar.tscn" id="4_7yn5a"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6ccg2"]
 radius = 0.4
@@ -18,8 +18,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.9000001, -0.1)
 script = ExtResource("3_fief6")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1859294395]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.07499995, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6630141, 0)
 shape = SubResource("CapsuleShape3D_6ccg2")
 
-[node name="EnemyHealthBar" parent="." unique_id=1550376025 instance=ExtResource("4_lcuss")]
+[node name="EnemyHealthBar" parent="." unique_id=1550376025 instance=ExtResource("4_7yn5a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9000001, 0)
