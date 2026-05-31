@@ -125,9 +125,10 @@ func _physics_process(delta: float) -> void:
 	# Animacije
 	var ground_speed := velocity.length()
 	if _attack_pressed:
-		_skin.attack()
+		if not _skin.is_attacking:
+			_skin.attack()
+			_has_dealt_damage = false
 		_attack_pressed = false
-		_has_dealt_damage = false
 
 	# Provjeri damage na sredini attack animacije
 	if _skin.is_attacking and not _has_dealt_damage and _skin.get_attack_progress() >= 0.5:

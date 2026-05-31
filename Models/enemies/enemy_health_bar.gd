@@ -9,4 +9,6 @@ func set_health(current: float, maximum: float) -> void:
 
 func _update_color(ratio: float) -> void:
 	var color := Color.GREEN.lerp(Color.RED, 1.0 - ratio)
-	_bar.get_theme_stylebox("fill", "ProgressBar").bg_color = color
+	var stylebox := _bar.get_theme_stylebox("fill", "ProgressBar").duplicate()
+	stylebox.bg_color = color
+	_bar.add_theme_stylebox_override("fill", stylebox)
