@@ -1,10 +1,11 @@
 [gd_scene format=3 uid="uid://dhss883um6eoq"]
 
-[ext_resource type="PackedScene" uid="uid://deo6fvmni02h7" path="res://player/player_3d.tscn" id="1_02n5q"]
+[ext_resource type="PackedScene" uid="uid://deo6fvmni02h7" path="res://Models/player/player_3d.tscn" id="1_02n5q"]
 [ext_resource type="Texture2D" uid="uid://ddprscrpsofah" path="res://demo/assets/textures/ground037_alb_ht.png" id="2_4jvft"]
 [ext_resource type="Texture2D" uid="uid://c88j3oj0lf6om" path="res://demo/assets/textures/rock023_alb_ht.png" id="3_y7khv"]
 [ext_resource type="PackedScene" uid="uid://cmgcorb3bs2em" path="res://demo/assets/Crkva_Sv_Nikole.glb" id="4_y7khv"]
 [ext_resource type="PackedScene" uid="uid://b3stkkbitfxhe" path="res://demo/Tree.fbx" id="5_guuos"]
+
 
 [sub_resource type="Gradient" id="Gradient_6uqi0"]
 offsets = PackedFloat32Array(0.2, 1)
