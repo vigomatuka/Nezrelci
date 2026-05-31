@@ -15,6 +15,10 @@ run/main_scene="uid://bkkrcxl4dj68l"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+LimboManager="*uid://dqhrdwujkn246"
+
 [dotnet]
 
 project/assembly_name="Nezrelci_godot"
