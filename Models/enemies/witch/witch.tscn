@@ -1,16 +1,57 @@
 [gd_scene format=3 uid="uid://buuqv5o11bwyw"]
 
-[ext_resource type="Script" uid="uid://dv07b2j38w2b7" path="res://scripts/witch.gd" id="1_u5o7w"]
-[ext_resource type="PackedScene" uid="uid://cgvskoaw1ncn7" path="res://Models/enemies/witch/witch.glb" id="2_u5o7w"]
+[ext_resource type="Script" uid="uid://dlkfwkjkopqhc" path="res://models/enemies/witch/witch.gd" id="1_bjlo5"]
+[ext_resource type="PackedScene" uid="uid://cgvskoaw1ncn7" path="res://models/enemies/witch/witch.glb" id="2_u5o7w"]
+[ext_resource type="PackedScene" uid="uid://ltfk511sm88a" path="res://models/enemies/witch/laser.tscn" id="3_bjlo5"]
+[ext_resource type="Script" uid="uid://dfmpj787fumy" path="res://models/enemies/witch/charge_fx.gd" id="4_ol0of"]
+[ext_resource type="PackedScene" uid="uid://f1iypyrlegrq" path="res://models/enemies/enemy_health_bar.tscn" id="5_ol0of"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7xaro"]
 radius = 0.29999998
 
 [node name="Enemy" type="CharacterBody3D" unique_id=178764703]
-script = ExtResource("1_u5o7w")
+script = ExtResource("1_bjlo5")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1165816438]
 shape = SubResource("CapsuleShape3D_7xaro")
 
 [node name="witch" parent="." unique_id=1494161389 instance=ExtResource("2_u5o7w")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0.049999997)
+
+[node name="Skeleton3D" parent="witch/Armature" parent_id_path=PackedInt32Array(1494161389, 1516270105) index="0" unique_id=897433098]
+bones/0/position = Vector3(0.027551398, -0.0009587989, -0.21986859)
+bones/0/rotation = Quaternion(-0.14897569, -0.685604, 0.6997757, 0.13441543)
+bones/1/rotation = Quaternion(-0.03032189, 0.003549634, 0.08790908, 0.99566054)
+bones/2/rotation = Quaternion(-0.0116196005, 0.0037560083, -0.022889601, 0.9996634)
+bones/3/rotation = Quaternion(-0.011664453, 0.0036224204, -0.022883488, 0.9996636)
+bones/4/rotation = Quaternion(0.00024551526, 0.07202311, -0.20444253, 0.9762254)
+bones/5/rotation = Quaternion(-0.036680643, 0.34514078, 0.106120855, 0.9318105)
+bones/6/rotation = Quaternion(2.3283064e-09, -2.6822093e-07, 1.1641538e-09, 1)
+bones/7/rotation = Quaternion(-0.16863029, -0.52210313, 0.83469605, -0.047482103)
+bones/8/rotation = Quaternion(0.2556168, 0.04038796, -0.032632183, 0.9653828)
+bones/9/position = Vector3(0.0017289137, 0.05772954, 0.0006286942)
+bones/9/rotation = Quaternion(-0.27558738, -0.6791782, 0.44302845, 0.51623106)
+bones/11/rotation = Quaternion(0.8132987, -0.10468015, 0.073554985, 0.5676064)
+bones/12/rotation = Quaternion(0.4400858, -0.1892414, -0.06383413, 0.8754641)
+bones/13/position = Vector3(-0.00765129, 0.06413712, -0.006061553)
+bones/13/rotation = Quaternion(-0.3237592, 0.5314739, -0.680249, 0.38726854)
+bones/15/rotation = Quaternion(0.23698686, -0.18456914, 0.8991648, -0.318236)
+bones/16/rotation = Quaternion(-0.07811268, -0.06820801, -0.48013085, 0.8710456)
+bones/17/rotation = Quaternion(-0.23954906, 0.91631776, -0.2529057, -0.19752634)
+bones/18/rotation = Quaternion(0.36462322, 0.6021157, -0.3185474, 0.6348497)
+bones/20/rotation = Quaternion(-0.16836908, 0.19384885, 0.9339259, -0.24871041)
+bones/21/rotation = Quaternion(0.06393009, -0.08087027, -0.44913524, 0.8874968)
+bones/22/rotation = Quaternion(0.34471607, -0.41458443, 0.5147567, 0.6665704)
+bones/23/rotation = Quaternion(0.26991037, -0.55627906, 0.17700721, 0.76574826)
+
+[node name="Laser" parent="." unique_id=1876591802 instance=ExtResource("3_bjlo5")]
+
+[node name="HandMarker" type="Marker3D" parent="." unique_id=549594954]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.06374645, 1.1544974, 1.8014407)
+
+[node name="ChargeFX" type="GPUParticles3D" parent="HandMarker" unique_id=191630456]
+script = ExtResource("4_ol0of")
+
+[node name="EnemyHealthBar" parent="." unique_id=1550376025 instance=ExtResource("5_ol0of")]
+
+[editable path="witch"]
