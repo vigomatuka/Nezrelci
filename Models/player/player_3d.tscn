@@ -18,7 +18,7 @@ border_width_bottom = 2
 border_color = Color(0.40392157, 0.9882353, 0.003921569, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qvfm8"]
-bg_color = Color(0.40392157, 0.14509805, 0.9254902, 1)
+bg_color = Color(0.07058824, 0.7647059, 0.3137255, 1)
 
 [node name="Player_3d" type="CharacterBody3D" unique_id=39815255 groups=["Player"]]
 script = ExtResource("1_qihqb")

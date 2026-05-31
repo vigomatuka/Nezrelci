@@ -2,18 +2,27 @@ extends CharacterBody3D
 
 @export var move_speed := 4.0
 @export var attack_range := 1.5
-@export var attack_damage := 20.0
+@export var attack_damage := 7.0
+@export var max_health := 100.0
 
 var player: CharacterBody3D = null
 var gravity := 30.0
 var is_attacking := false
 var _has_dealt_damage := false
+var current_health := max_health
 
 @onready var skin: Node3D = $assassin
 
 func _ready() -> void:
 	player = get_tree().get_first_node_in_group("Player")
-	print(get_children())
+	add_to_group("Enemy")
+	player = get_tree().get_first_node_in_group("Player")
+
+func take_damage(amount: float) -> void:
+	current_health -= amount
+	if current_health <= 0.0:
+		queue_free()
+	print(current_health)
 
 func _physics_process(delta: float) -> void:
 	if player == null:

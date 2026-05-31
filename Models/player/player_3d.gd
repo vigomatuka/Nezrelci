@@ -14,12 +14,16 @@ var _strafe_mode := false
 @export var jump_impulse := 12.0
 @export_group("Health")
 @export var max_health := 100.0
-var current_health := max_health
+@export var attack_range := 2.0
+@export var attack_damage := 25.0
+
 
 var _camera_input_direction := Vector2.ZERO
 var _last_movement_direction := Vector3.BACK
 var _gravity := -40.0
 var _attack_pressed := false
+var current_health := max_health
+var _has_dealt_damage := false
 
 @onready var _camera_pivot: Node3D = %CameraPivot
 @onready var _camera: Camera3D = %Camera3D
@@ -123,6 +127,16 @@ func _physics_process(delta: float) -> void:
 	if _attack_pressed:
 		_skin.attack()
 		_attack_pressed = false
+		_has_dealt_damage = false
+
+	# Provjeri damage na sredini attack animacije
+	if _skin.is_attacking and not _has_dealt_damage and _skin.get_attack_progress() >= 0.5:
+		for enemy in get_tree().get_nodes_in_group("Enemy"):
+			var dist = global_position.distance_to(enemy.global_position)
+			if dist <= attack_range:
+				enemy.take_damage(attack_damage)
+		_has_dealt_damage = true
+		
 	elif ground_speed > 0.1:
 		_skin.run()
 	else:
