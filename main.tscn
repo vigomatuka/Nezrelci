@@ -1,7 +1,5 @@
 [gd_scene format=3 uid="uid://bkkrcxl4dj68l"]
 
-[ext_resource type="PackedScene" uid="uid://5b0dufgelv06" path="res://Models/old_player/Main_character.glb" id="1_ig7tw"]
-
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7dm0k"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
 ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -48,6 +46,3 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.50
 size = Vector3(0.5, 3.5, 10.1)
 
 [node name="Node3D" type="Node3D" parent="." unique_id=728498173]
-
-[node name="Main_character" parent="." unique_id=1953450933 instance=ExtResource("1_ig7tw")]
-transform = Transform3D(2.2, 0, 0, 0, 2.2, 0, 0, 0, 2.2, 15.000001, 1.3000001, 6)
